@@ -1,0 +1,12 @@
+:root { --zemin: #faf8f4; --metin: #1f1d1a; --soluk: #6b655c; --vurgu: #8a4b16; }
+@media (prefers-color-scheme: dark) { :root { --zemin: #1a1816; --metin: #ece7df; --soluk: #a39b8f; --vurgu: #e0a060; } }
+body { margin: 0; background: var(--zemin); color: var(--metin); font: 17px/1.6 system-ui, -apple-system, "Segoe UI", sans-serif; }
+main { max-width: 46rem; margin: 0 auto; padding: 2rem 16px 4rem; }
+h1 { font-size: 1.8rem; line-height: 1.25; }
+h2 { margin-top: 2.5rem; font-size: 1.3rem; }
+h3 { font-size: 1.05rem; }
+a { color: var(--vurgu); }
+nav, footer, .tarih { color: var(--soluk); }
+footer { margin-top: 3rem; border-top: 1px solid currentColor; padding-top: 1rem; font-size: .95rem; }
+code { font-size: .9em; }
+li { margin: .3rem 0; }
